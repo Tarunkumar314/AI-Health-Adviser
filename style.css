@@ -30,12 +30,14 @@ html{
 }
 .header #logo{
     width: 50px;
+    left: 50%;
 }
 .navbar a{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
     position: relative;
+    left: 100%;
   
 }
 .navbar a:after{
@@ -81,7 +83,7 @@ html{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 .background-image{
-    background: url(images/background.jpg);
+    background: url(images/doctor-g024485840_1920.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -92,18 +94,19 @@ html{
 }
 .background-content{
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 20%;
+    left: 45%;
     width: 50%;
     transform: translate(-80%);
 }
 .background-content h1{
-    color: black;
-    font-size: 40px;
+    color: rgb(198, 190, 40);
+    
+    font-size: 70px;
     margin-bottom: 20px;
 }
 .background-content p{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-bottom: 40px;
 }
 
@@ -130,9 +133,12 @@ html{
     align-items: center;
     gap: 15px;
     flex-wrap: wrap;
+    color: rgb(198, 190, 40);
+    font-size: 30px;
 }
 .inner-about{
     flex: 1 1 45rem;
+    
 }
 
 .inner-about .inner-about-image img{
@@ -148,18 +154,19 @@ html{
 .about-content p{
     font-size: 1.5rem;
     margin-bottom: 30px;
+    color: black;
 }
 .about-content a{
     background: var(--secclr);
     padding: 1rem 3rem;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(1, 1, 1);
     transition: .5s;
 }
 .about-content a:hover{
     background: transparent;
     border: 1px solid var(--secclr);
-    color: black;
+    color: rgb(255, 0, 0);
 }
 .our-services{
     padding: 4rem 7%;
@@ -236,34 +243,7 @@ html{
     color: white;
     background: var(--mainclr);
 }
-.gallery{
-    padding: 4rem 7%;
-}
-.gallery h1{
-    color: var(--mainclr);
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.main-gallery{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-.inner-gallery{
-    flex:1 1 300px;
 
-}
-.inner-gallery img{
-    width: 100%;
-    transition: .3s;
-}
-.inner-gallery img:hover{
-    transform: scale(1.1);
-    border-radius: 20px;
-}
 .our-doctors{
     padding: 4rem 7%;
 }
@@ -353,18 +333,18 @@ html{
     line-height: 1;
 }
 .footer{
-    padding: 6rem 7%;
+    padding:0;
     background: var(--third);
 }
 .main-footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 .inner-footer{
-    flex: 1 1 200px;
+    flex: 1 1 0px;
 }
 .inner-footer h2{
     font-size: 2rem;
@@ -375,7 +355,7 @@ html{
     font-weight: bolder;
     color: black;
     display: block;
-    margin-top: 1rem;
+    margin-top: 10rem;
     padding-top: 1rem;
 }
 .inner-footer a:hover{
@@ -432,7 +412,7 @@ html{
         left: 0;
         width: 100%;
         height: 100vh;
-        background: var(--secclr);
+        background: blanchedalmond;
         display: flex;
         
         align-items: center;
@@ -447,7 +427,7 @@ html{
         font-weight: bolder;
         margin: 1rem;
         padding: 1rem;
-        color: black;
+        color: rgb(0, 0, 0);
     }
     .background-content{
         
